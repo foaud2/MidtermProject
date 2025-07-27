@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@color/f"
+    >
+
+    <TextView
+        android:id="@+id/tv3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="10dp"
+
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/R"
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv3_1"
+        android:background="@color/f"
+        >
+        <TextView
+            android:id="@+id/tv3_2"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Address:"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <EditText
+            android:paddingLeft="10dp"
+            android:id="@+id/ed3_1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Insert Email Address"
+            android:inputType="textWebEmailAddress"
+            android:layout_below="@+id/tv3_2"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Email?"
+            android:layout_below="@id/ed3_1"
+            android:layout_alignParentRight="true"
+            android:textSize="13dp"
+            android:layout_marginRight="18dp"
+            />
+        <TextView
+            android:id="@+id/tv3_4"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_below="@id/tv3_3"
+            />
+        <EditText
+            android:paddingLeft="10dp"
+            android:id="@+id/ed3_2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Insert Password "
+            android:inputType="textPassword"
+            android:layout_below="@+id/tv3_4"
+            android:background="@color/white"
+            />
+        <TextView
+            android:id="@+id/tv3_5"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:layout_below="@id/ed3_2"
+            android:layout_alignParentRight="true"
+            android:textSize="13dp"
+            android:layout_marginRight="18dp"
+            />
+        <TextView
+            android:id="@+id/tv3_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don’t have any account?"
+            android:textSize="20sp"
+            android:layout_below="@+id/tv3_5"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:id="@+id/Bu3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_toRightOf="@id/tv3_6"
+            android:layout_below="@id/tv3_5"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <Button
+            android:id="@+id/Bu3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Login"
+            android:layout_below="@id/tv3_6"
+            android:backgroundTint="@color/TealBlue"
+
+            />
+        <TextView
+            android:id="@+id/tv3_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="OR"
+            android:layout_below="@id/Bu3_2"
+            android:layout_centerHorizontal="true"
+            />
+        <Button
+            android:id="@+id/Bu3_3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3_7"
+            android:text="google"
+            android:layout_toRightOf="@+id/tv3_7"
+            android:backgroundTint="@color/TealBlue"
+
+            />
+        <Button
+            android:id="@+id/Bu3_4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3_7"
+            android:text="Facebook"
+            android:layout_toLeftOf="@+id/tv3_7"
+            android:backgroundTint="@color/TealBlue"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -52,31 +52,31 @@ public class Favorites extends AppCompatActivity {
         TextView Tv20=findViewById(R.id.tv6_20);
         TextView Tv21=findViewById(R.id.tv6_21);
         TextView Tv22=findViewById(R.id.tv6_22);
-        ImageButton ImB1 = findViewById(R.id.icon6_1);
-        ImageButton ImB2 = findViewById(R.id.icon6_2);
-        ImageButton ImB3 = findViewById(R.id.icon6_3);
-        ImageButton ImB4 = findViewById(R.id.icon6_4);
-        TextView profil = findViewById(R.id.profil);
-        TextView Wishlist = findViewById(R.id.Wishlist);
-        TextView Browse = findViewById(R.id.Browse);
-        TextView Home = findViewById(R.id.Home);
+        ImageView Im1 = findViewById(R.id.img_home);
+        ImageView Im2 = findViewById(R.id.imgsersh);
+        ImageView Im3 = findViewById(R.id.imgWishlist);
+        ImageView Im4 = findViewById(R.id.imgProfile);
+        TextView profil = findViewById(R.id.TVProfile);
+        TextView Wishlist = findViewById(R.id.TVWishlist);
+        TextView Browse = findViewById(R.id.TVsersh);
+        TextView Home = findViewById(R.id.TV_home);
         Button BT1 = findViewById(R.id.Bu6_1);
 
-        ImB1.setOnClickListener(new View.OnClickListener() {
+        Im4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent a = new Intent(Favorites.this,profil.class);
                 startActivity(a);
             }
         });
-        ImB3.setOnClickListener(new View.OnClickListener() {
+        Im2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent b = new Intent(Favorites.this,search.class);
                 startActivity(b);
             }
         });
-        ImB2.setOnClickListener(new View.OnClickListener() {
+        Im1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent c = new Intent(Favorites.this,home.class);

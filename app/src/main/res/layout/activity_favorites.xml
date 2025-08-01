@@ -328,7 +328,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/TealBlue"
             android:text="Add to cart"
-            app:layout_constraintBottom_toTopOf="@+id/frameLayout3"
+            app:layout_constraintBottom_toTopOf="@+id/nav_favorites"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
@@ -353,91 +353,201 @@
             android:checked="true"
             app:layout_constraintStart_toStartOf="@+id/line3"
             app:layout_constraintTop_toTopOf="@+id/line3" />
-        <FrameLayout
-            android:id="@+id/frameLayout3"
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:background="@color/f"
-            app:layout_constraintBottom_toBottomOf="parent" />
+<!--        <FrameLayout-->
+<!--            android:id="@+id/frameLayout3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:background="@color/f"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent" />-->
 
-    <ImageButton
-        android:id="@+id/icon6_1"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="10dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/account"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+<!--    <ImageButton-->
+<!--        android:id="@+id/icon6_1"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginEnd="30dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/account"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent" />-->
 
-    <ImageButton
-        android:id="@+id/icon6_2"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="10dp"
+<!--    <ImageButton-->
+<!--        android:id="@+id/icon6_2"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginEnd="50dp"-->
+<!--        android:layout_marginBottom="10dp"-->
 
-        android:scaleType="centerCrop"
-        android:src="@drawable/home"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/icon6_3" />
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/home"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/icon6_3" />-->
 
-    <ImageButton
-        android:id="@+id/icon6_3"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="10dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/search"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/icon6_4" />
+<!--    <ImageButton-->
+<!--        android:id="@+id/icon6_3"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginEnd="50dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/search"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/icon6_4" />-->
 
-    <ImageButton
-        android:id="@+id/icon6_4"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="10dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/love_2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/icon6_1" />
+<!--    <ImageButton-->
+<!--        android:id="@+id/icon6_4"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginEnd="50dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/love_2"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/icon6_1" />-->
 
-        <TextView
-            android:id="@+id/profil"
-            android:layout_width="wrap_content"
+<!--        <TextView-->
+<!--            android:id="@+id/profil"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Profle"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/icon6_1"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/icon6_1" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/Wishlist"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Wishlist"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/icon6_4"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/icon6_4" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/Browse"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Browse"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/icon6_3"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/icon6_3" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/Home"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Home"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/icon6_2"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/icon6_2" />-->
+    <LinearLayout
+        android:id="@+id/nav_favorites"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/f"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <LinearLayout
+            android:id="@+id/linehome"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Profle"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/icon6_1"
-            app:layout_constraintStart_toStartOf="@+id/icon6_1" />
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/Wishlist"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Wishlist"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/icon6_4"
-            app:layout_constraintStart_toStartOf="@+id/icon6_4" />
+            <ImageView
+                android:id="@+id/img_home"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/home" />
 
-        <TextView
-            android:id="@+id/Browse"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Browse"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/icon6_3"
-            app:layout_constraintStart_toStartOf="@+id/icon6_3" />
+            <TextView
+                android:id="@+id/TV_home"
+                android:layout_width="40dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="5dp"
+                android:text="Home"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/Home"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:id="@+id/lineBrowse"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Home"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/icon6_2"
-            app:layout_constraintStart_toStartOf="@+id/icon6_2" />
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgsersh"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/search" />
+
+            <TextView
+                android:id="@+id/TVsersh"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:text="Browse"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lineWishlist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgWishlist"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/love_2" />
+
+            <TextView
+                android:id="@+id/TVWishlist"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Wishlist"
+                android:textColor="@color/TealBlue"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lineProfile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/account" />
+
+            <TextView
+                android:id="@+id/TVProfile"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Profile"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -38,30 +38,30 @@ public class search extends AppCompatActivity {
         TextView TV11 = findViewById(R.id.tv5_11);
         ImageView IM1 =findViewById(R.id.im5_1);
         ImageView IM2 =findViewById(R.id.im5_2);
-        ImageButton ImB1 = findViewById(R.id.icon5_1);
-        ImageButton ImB2 = findViewById(R.id.icon5_2);
-        ImageButton ImB3 = findViewById(R.id.icon5_3);
-        ImageButton ImB4 = findViewById(R.id.icon5_4);
-        TextView profil = findViewById(R.id.profil);
-        TextView Wishlist = findViewById(R.id.Wishlist);
-        TextView Browse = findViewById(R.id.Browse);
-        TextView Home = findViewById(R.id.Home);
+        ImageView Im1 = findViewById(R.id.img_home);
+        ImageView Im2 = findViewById(R.id.imgsersh);
+        ImageView Im3 = findViewById(R.id.imgWishlist);
+        ImageView Im4 = findViewById(R.id.imgProfile);
+        TextView profil = findViewById(R.id.TVProfile);
+        TextView Wishlist = findViewById(R.id.TVWishlist);
+        TextView Browse = findViewById(R.id.TVsersh);
+        TextView Home = findViewById(R.id.TV_home);
 
-        ImB1.setOnClickListener(new View.OnClickListener() {
+        Im4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent a = new Intent(search.this,profil.class);
                 startActivity(a);
             }
         });
-        ImB4.setOnClickListener(new View.OnClickListener() {
+        Im3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent b = new Intent(search.this,Favorites.class);
                 startActivity(b);
             }
         });
-        ImB2.setOnClickListener(new View.OnClickListener() {
+        Im1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent c = new Intent(search.this,home.class);

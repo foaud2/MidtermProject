@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/main"
-        tools:context=".Favorites"
+        tools:context=".activity.Favorites"
         android:background="@color/f">
         <TextView
             android:id="@+id/tv6_1"

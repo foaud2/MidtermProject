@@ -1,4 +1,4 @@
-package com.example.midtermproject;
+package com.example.midtermproject.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +12,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.example.midtermproject.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -56,7 +58,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+//        TV1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent d =new Intent(MainActivity.this,desinfrag.class);
+//            }
+//        });
             }
 
 

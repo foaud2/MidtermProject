@@ -1,9 +1,6 @@
-package com.example.midtermproject;
+package com.example.midtermproject.activity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,26 +8,19 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Splash extends AppCompatActivity {
+import com.example.midtermproject.R;
+
+public class Checkout extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.activity_checkout);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        TextView TV1 =findViewById(R.id.tv0_1);
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent a =new Intent(Splash.this,MainActivity.class);
-                startActivity(a);
-                finish();
-            }
-        }, 7000);
     }
 }

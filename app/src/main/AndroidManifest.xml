@@ -13,13 +13,25 @@
         android:theme="@style/Theme.MidtermProject"
         tools:targetApi="31">
         <activity
-            android:name=".Checkout"
+            android:name=".am"
             android:exported="false" />
         <activity
-            android:name=".cart"
+            android:name=".activity.desinfrag"
             android:exported="false" />
         <activity
-            android:name=".Splash"
+            android:name=".activity.Listveiw"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Settings"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Checkout"
+            android:exported="false" />
+        <activity
+            android:name=".activity.cart"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,25 +40,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".search"
+            android:name=".activity.search"
             android:exported="false" />
         <activity
-            android:name=".Favorites"
+            android:name=".activity.Favorites"
             android:exported="false" />
         <activity
-            android:name=".profil"
+            android:name=".activity.profil"
             android:exported="false" />
         <activity
-            android:name=".Login"
+            android:name=".activity.Login"
             android:exported="false" />
         <activity
-            android:name=".REGISTER"
+            android:name=".activity.REGISTER"
             android:exported="false" />
         <activity
-            android:name=".home"
+            android:name=".activity.home"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="false" />
     </application>
 

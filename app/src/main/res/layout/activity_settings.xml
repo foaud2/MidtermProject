@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+    <ImageButton
+        android:id="@+id/ImageButtonhome"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home" />
+</LinearLayout>
+
+<!--    <Button-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="28dp"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:text="Language"-->
+<!--        android:textColor="@color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.495"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button1" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button3"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:text="Share the app"-->
+<!--        android:textColor="@color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button2" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button4"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:text="Rate the app on the store"-->
+<!--        android:textColor="@color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button3" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button5"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:text="Contact  us"-->
+<!--        android:textColor="@color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button4" />-->
+
+
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/imageButton2"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:background="@color/white"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/internet"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/button2"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/button2"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/button2" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/imageButton3"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:background="@color/white"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/share"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/button3"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/button2"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/button3" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/imageButton4"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:background="@color/white"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/heart"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/button4"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/button4"-->
+
+<!--        app:layout_constraintTop_toTopOf="@+id/button4" />-->
+
+<!--    <ImageButton-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:background="@color/white"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/message"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/button5"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/button5"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/button5"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        />-->
+
+

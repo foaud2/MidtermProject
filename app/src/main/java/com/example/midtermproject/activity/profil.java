@@ -41,53 +41,5 @@ public class profil extends AppCompatActivity {
         myFragmentTransaction.add(R.id.FrameLayout,new_Framents);
         myFragmentTransaction.add(R.id.frameLayout22,new2_Framents);
         myFragmentTransaction.commit();
-
     }
 }
-//        TextView TV1=findViewById(R.id.tv7_1);
-//        TextView TV2=findViewById(R.id.tv7_2);
-//        ImageView IV =findViewById(R.id.im7_2);
-//        ImageView Im1 = findViewById(R.id.img_home);
-//        ImageView Im2 = findViewById(R.id.imgsersh);
-//        ImageView Im3 = findViewById(R.id.imgWishlist);
-//        ImageView Im4 = findViewById(R.id.imgProfile);
-//        TextView profil = findViewById(R.id.TVProfile);
-//        TextView Wishlist = findViewById(R.id.TVWishlist);
-//        TextView Browse = findViewById(R.id.TVsersh);
-//        TextView Home = findViewById(R.id.TV_home);
-//        Button BT1 = findViewById(R.id.Bt7_1);
-//        Button BT2 = findViewById(R.id.Bt7_2);
-//        Button BT3 = findViewById(R.id.Bt7_3);
-//        Button BT4 = findViewById(R.id.Bt7_4);
-//        Button BT5 = findViewById(R.id.Bt7_5);
-
-
-//        Im2.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent a = new Intent(profil.this,search.class);
-//                startActivity(a);
-//            }
-//        });
-//        Im3.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent b = new Intent(profil.this,Favorites.class);
-//                startActivity(b);
-//            }
-//        });
-//        Im1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent c = new Intent(profil.this,home.class);
-//                startActivity(c);
-//            }
-//        });
-//        BT3.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent d = new Intent(profil.this,Listveiw.class);
-//                startActivity(d);
-//            }
-//        });
-

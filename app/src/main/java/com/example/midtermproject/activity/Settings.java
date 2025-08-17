@@ -28,21 +28,7 @@ public class Settings extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-//        TextView TV1 = findViewById(R.id.TV9_1);
-//        ImageButton ImB1 = findViewById(R.id.back);
         Button BT1 = findViewById(R.id.button1);
-//        Button BT2 = findViewById(R.id.button2);
-//        Button BT3 = findViewById(R.id.button3);
-//        Button BT4 = findViewById(R.id.button4);
-//        Button BT5 = findViewById(R.id.button5);
-
-//        ImB1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent a = new Intent(Settings.this, profil.class);
-//                startActivity(a);
-//            }
-//        });
         BT1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
